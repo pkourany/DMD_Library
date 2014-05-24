@@ -1,0 +1,7 @@
+{
+	"name": "Dot Matrix Display",
+	"author": "Paul Kourany",
+	"version": "0.0.1",
+	"license": "Unknown",
+	"description": "Freetronics DMD library for Spark"
+}
