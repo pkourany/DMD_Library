@@ -53,7 +53,7 @@ DMD::DMD(byte panelsWide, byte panelsHigh)
     pinMode(PIN_DMD_SCLK, OUTPUT);	//
     pinMode(PIN_DMD_R_DATA, OUTPUT);	//
     pinMode(PIN_DMD_nOE, OUTPUT);		//
-    pinMode(PIN_OTHER_SPI_nCS, OUTPUT);	//
+    pinMode(PIN_OTHER_SPI_nCS, INPUT_PULLUP);	//
 	
     digitalWrite(PIN_DMD_A, LOW);	// 
     digitalWrite(PIN_DMD_B, LOW);	// 
@@ -61,7 +61,7 @@ DMD::DMD(byte panelsWide, byte panelsHigh)
     digitalWrite(PIN_DMD_SCLK, LOW);	// 
     digitalWrite(PIN_DMD_R_DATA, HIGH);	// 
     digitalWrite(PIN_DMD_nOE, LOW);		//
-    digitalWrite(PIN_OTHER_SPI_nCS, HIGH);	//
+//    digitalWrite(PIN_OTHER_SPI_nCS, HIGH);	//
 
     clearScreen(true);
 
