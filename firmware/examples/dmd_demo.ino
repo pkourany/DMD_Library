@@ -35,14 +35,14 @@
  The DMD library is open source (GPL), for more see DMD.cpp and DMD.h
 
 --------------------------------------------------------------------------------------*/
-!!! The SparkIntervalTimer library MUST be added to this example !!!
+// !!! The SparkIntervalTimer library MUST be added to this example !!!
 /*--------------------------------------------------------------------------------------
   Includes
 --------------------------------------------------------------------------------------*/
 //#include <SPI.h>        //SPI.h must be included as DMD is written by SPI (the IDE complains otherwise)
-#include "DMD.h"        //
-#include "SystemFont5x7.h"
-#include "Arial_black_16.h"
+#include "DMD/DMD.h"        //
+#include "DMD/SystemFont5x7.h"
+#include "DMD/Arial_black_16.h"
 
 //Fire up the DMD library as dmd
 #define DISPLAYS_ACROSS 1
