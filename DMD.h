@@ -35,30 +35,15 @@ LED Panel Layout in RAM
 #ifndef DMD_H_
 #define DMD_H_
 
-#include "application.h"
+#include "Particle.h"
 
-#define pgm_read_byte(addr) (*(const uint8_t *)(addr))
-
-/*
-//Arduino toolchain header, version dependent
-#if defined(ARDUINO) && ARDUINO >= 100
-	#include "Arduino.h"
-#else
-	#include "WProgram.h"
-#endif
-
-
-//SPI library must be included for the SPI scanning/connection method to the DMD
-#include "pins_arduino.h"
-#include <avr/pgmspace.h>
-#include <SPI.h>
-*/
+//#define pgm_read_byte(addr) (*(const uint8_t *)(addr))
 
 
 // ######################################################################################################################
 // ######################################################################################################################
 #warning CHANGE THESE TO SEMI-ADJUSTABLE PIN DEFS!
-#ifndef SPARK_CORE
+#ifndef PARTICLE
 //Arduino pins used for the display connection
 #define PIN_DMD_nOE       9    // D9 active low Output Enable, setting this low lights all the LEDs in the selected rows. Can pwm it at very high frequency for brightness control.
 #define PIN_DMD_A         6    // D6
