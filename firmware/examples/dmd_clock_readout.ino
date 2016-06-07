@@ -35,14 +35,12 @@
  The DMD library is open source (GPL), for more see DMD.cpp and DMD.h
 
 --------------------------------------------------------------------------------------*/
-
+!!! The SparkIntervalTimer library MUST be added to this example !!!
 /*--------------------------------------------------------------------------------------
   Includes
 --------------------------------------------------------------------------------------*/
 //#include <SPI.h>        //SPI.h must be included as DMD is written by SPI (the IDE complains otherwise)
 #include "DMD.h"        //
-//#include <TimerOne.h>   //
-#include "SparkIntervalTimer.h"
 #include "Arial_black_16.h"
 
 //Fire up the DMD library as dmd
