@@ -29,8 +29,6 @@
  *                  // bit field of all characters
  */
 
-//#include <inttypes.h>
-//#include <avr/pgmspace.h>
 
 #ifndef SYSTEM5x7_H
 #define SYSTEM5x7_H
