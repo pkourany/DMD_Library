@@ -1,5 +1,3 @@
-
-
 /*
  *
  * Arial_14
@@ -36,8 +34,6 @@
  *                  // bit field of all characters
  */
 
-//#include <inttypes.h>
-//#include <avr/pgmspace.h>
 
 #ifndef ARIAL_14_H
 #define ARIAL_14_H
