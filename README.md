@@ -1,22 +1,27 @@
 DMD_Library
 ===========
 
-DMD (dot matrix display) library for Spark adapted from Arduino library
+DMD (dot matrix display) library for Particle devices adapted from Arduino library
 
 Version 1 of Dot Matrix Library Copyright (C) 2011 Marc Alexander (info@freetronics.com)
-Adapted for Spark by Paul Kourany, May 22, 2014
+Adapted for Particle devices by Paul Kourany, May 22, 2014
 
-NOTE: Default pin configuration:
+**IMPORTANT: This library requires Particle firmware v4.5 or later**
 
-DMD		  SPARK
+```
+Default pin configuration:
+
+DMD		 PARTICLE
+-----------------
 nOE		  A0
-A		    D4
-B		    D3
+A		  D4
+B		  D3
 CLK		  A3
 SCLK	  D2
-R_DATA	A5
+R_DATA    A5
+```
 
-Spark SPI CS pin A2 is set to HIGH and assumed to by used by another SPI device.  This pin MUST read as HIGH for DMD
+Particle SPI CS pin A2 is set to HIGH and assumed to be used by another SPI device.  This pin MUST read as HIGH for DMD
 to function correctly.
 
 **********************************************
