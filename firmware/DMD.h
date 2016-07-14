@@ -35,7 +35,7 @@ LED Panel Layout in RAM
 #ifndef DMD_H_
 #define DMD_H_
 
-#include "Particle.h"
+#include "application.h"
 
 //#define pgm_read_byte(addr) (*(const uint8_t *)(addr))
 
