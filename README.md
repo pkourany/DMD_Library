@@ -5,6 +5,8 @@ DMD (dot matrix display) library for Particle devices adapted from Arduino libra
 
 Version 1 of Dot Matrix Library Copyright (C) 2011 Marc Alexander (info@freetronics.com)
 Adapted for Particle devices by Paul Kourany, May 22, 2014
+Updated to Libraries 2.0, Jan 29, 2017
+
 
 **IMPORTANT: This library requires Particle firmware v4.5 or later**
 

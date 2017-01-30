@@ -1,7 +1,0 @@
-{
-	"name": "DMD",
-	"author": "Paul Kourany",
-	"version": "0.0.2",
-	"license": "Unknown",
-	"description": "Freetronics Dot Matrix Display library for Particle"
-}
